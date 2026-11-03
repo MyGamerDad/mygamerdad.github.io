@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 620" role="img" aria-labelledby="t d"><title id="t">Neon gaming controller</title><desc id="d">A futuristic purple game controller glowing with cyan and lime controls, surrounded by retro-game sparkles.</desc><defs>
+<radialGradient id="halo"><stop stop-color="#8f43ff" stop-opacity=".5"/><stop offset="1" stop-color="#8f43ff" stop-opacity="0"/></radialGradient>
+<linearGradient id="shell" x1=".05" y1=".1" x2=".91" y2=".93"><stop stop-color="#5350a0"/><stop offset=".34" stop-color="#242d62"/><stop offset=".76" stop-color="#191b43"/><stop offset="1" stop-color="#0a0f2d"/></linearGradient>
+<linearGradient id="shellEdge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a1b3ff"/><stop offset=".45" stop-color="#7d6afd"/><stop offset="1" stop-color="#43338a"/></linearGradient>
+<linearGradient id="handle" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#444783"/><stop offset="1" stop-color="#181a42"/></linearGradient>
+<linearGradient id="stick" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#5869a0"/><stop offset="1" stop-color="#10162f"/></linearGradient>
+<filter id="blur"><feGaussianBlur stdDeviation="13"/></filter>
+<filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="0" dy="24" stdDeviation="17" flood-color="#030312" flood-opacity=".83"/></filter>
+</defs>
+<ellipse cx="337" cy="306" rx="285" ry="230" fill="url(#halo)"/>
+<path d="M120 123h28m-14-14v28M540 403h33m-16.5-16.5v33" stroke="#ddff63" stroke-width="5" stroke-linecap="round" filter="url(#glow)"/>
+<path d="m533 142 7 11 13 2-9 10 2 13-13-6-12 6 2-13-9-10 13-2Z" fill="#fe5cad"/><path d="m112 420 5 9 10 2-7 7 2 10-10-4-9 4 1-10-7-7 10-2Z" fill="#65eefe"/>
+<g transform="translate(52 77) rotate(-8 289 245)" filter="url(#shadow)">
+<!-- silhouette and deep lower edge -->
+<path d="M162 134c-46-4-73 15-94 70L15 366C6 401 20 433 55 436c18 2 38-7 57-25l66-59c21-20 36-22 65-21l83 1c26 0 44 8 63 25l65 57c26 22 43 28 63 18 29-15 33-44 24-70l-49-154c-20-60-48-78-100-75-33 2-58 14-95 14H261c-39 0-69-12-99-13Z" fill="#070a24" transform="translate(0 10)"/>
+<path d="M156 131c-45-5-73 15-95 72L9 360c-8 28 9 68 42 70 21 2 37-9 58-27l66-59c23-21 39-27 67-26l84 1c27 0 46 8 66 26l67 61c22 20 41 27 61 16 28-16 33-44 23-71l-48-152c-19-58-51-76-100-73-35 2-60 15-96 15h-44c-34 0-69-9-99-10Z" fill="url(#shell)" stroke="url(#shellEdge)" stroke-width="6"/>
+<!-- inset top chassis -->
+<path d="M132 153q40-6 95 7h116q63-17 119-6" stroke="#747cce" stroke-width="5" fill="none" opacity=".7"/>
+<path d="M95 247q-17 63-44 136M481 245q17 67 46 133" stroke="#9b69fd" stroke-width="5" opacity=".55"/>
+<!-- cyan perimeter highlight -->
+<path d="M70 199c-15 35-29 92-46 143M503 199c19 45 25 96 43 147" stroke="#62eafb" stroke-width="6" stroke-linecap="round" opacity=".7" filter="url(#glow)"/>
+<!-- top bumpers -->
+<path d="M104 125q43-27 109-6" stroke="#9fa3f5" stroke-width="16" stroke-linecap="round"/>
+<path d="M369 118q62-22 109 3" stroke="#9fa3f5" stroke-width="16" stroke-linecap="round"/>
+<path d="M263 148h53l12 17h-77Z" fill="#131832" stroke="#737bb5" stroke-width="3"/>
+<!-- pads -->
+<circle cx="135" cy="247" r="65" fill="#0c1735" stroke="#6f80b5" stroke-width="5"/><circle cx="135" cy="247" r="57" fill="#161e45" stroke="#293565" stroke-width="7"/>
+<path d="M121 205h28v28h28v28h-28v28h-28v-28H93v-28h28Z" fill="#6feaf6" stroke="#b7ffff" stroke-width="3" filter="url(#glow)"/><path d="M128 224v45M108 247h55" stroke="#12375c" stroke-width="3"/>
+<!-- right action buttons -->
+<circle cx="438" cy="236" r="64" fill="#0c1735" stroke="#6773b8" stroke-width="4"/>
+<g stroke="#132445" stroke-width="6"><circle cx="438" cy="198" r="20" fill="#f3c251"/><circle cx="438" cy="275" r="20" fill="#58e8f9"/><circle cx="400" cy="237" r="20" fill="#ef6ea4"/><circle cx="476" cy="237" r="20" fill="#c4fa66"/></g>
+<g fill="#fff" opacity=".9"><path d="m438 190 7 12h-14Z"/><path d="M429 266h18v18h-18Z" opacity=".9"/><path d="m391 237 17-8v16Z"/><circle cx="476" cy="237" r="7"/></g>
+<!-- analog sticks -->
+<circle cx="224" cy="321" r="57" fill="#0e1534" stroke="#6c67ba" stroke-width="5"/><circle cx="224" cy="321" r="43" fill="url(#stick)" stroke="#8293cc" stroke-width="4"/><circle cx="224" cy="321" r="29" fill="#222a54" opacity=".8"/>
+<circle cx="347" cy="321" r="57" fill="#0e1534" stroke="#6c67ba" stroke-width="5"/><circle cx="347" cy="321" r="43" fill="url(#stick)" stroke="#8293cc" stroke-width="4"/><circle cx="347" cy="321" r="29" fill="#222a54" opacity=".8"/>
+<!-- menu and center buttons -->
+<circle cx="285" cy="239" r="29" fill="#111933" stroke="#7372ba" stroke-width="3"/><path d="M278 227v25l20-13Z" fill="#ddff63" filter="url(#glow)"/>
+<rect x="220" y="208" width="23" height="9" rx="4" fill="#8898c7"/><rect x="326" y="208" width="23" height="9" rx="4" fill="#8898c7"/>
+<!-- decorative vents -->
+<path d="M192 173h185" stroke="#6c74b9" stroke-width="2" stroke-dasharray="5 12" opacity=".65"/>
+<path d="M169 374q52 20 119 16t119-16" fill="none" stroke="#8881e1" stroke-width="4" opacity=".6"/>
+</g>
+<ellipse cx="345" cy="547" rx="208" ry="12" fill="#834ad8" opacity=".55" filter="url(#blur)"/>
+</svg>
